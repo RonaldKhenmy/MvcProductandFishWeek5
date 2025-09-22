@@ -16,4 +16,4 @@ Outline of how I used the viewmodel views to navigate the website. Click on the 
 <img width="1887" height="1042" alt="image" src="https://github.com/user-attachments/assets/e0eeddfd-7395-4610-93aa-ba629d6c7850" />
 
 
-I connected the model MessageActionViewModel which houses the command for the action message with the views CreateMA.cshtml, DisplayMA.cshtml, and EditMA.cshtml. I then connected the classes to methods within the FishController. I also created an XML file that says mistletoe is dangerous which is in Infrastructure/Data/settings.
+I connected the model MessageActionViewModel which houses the command for the action message with the views CreateMA.cshtml, DisplayMA.cshtml, and EditMA.cshtml. I then connected the classes to methods within the FishController. I also created an XML file that says mistletoe is dangerous which is in Infrastructure/Data/settings in Visual Studios.
