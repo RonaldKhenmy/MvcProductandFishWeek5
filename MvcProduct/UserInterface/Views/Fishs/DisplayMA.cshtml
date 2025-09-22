@@ -1,0 +1,19 @@
+﻿@model MvcProduct.UserInterface.Models.MessageActionViewModel
+@{
+    ViewData["Title"] = "Display Action Here";
+} 
+
+<h1>Display Action</h1>
+
+<p>@Html.DisplayFor(m => m.MessageAction) </p> 
+
+<p>
+    <a asp-action="EditMA" asp-route-messageAction="@Model.MessageAction">Edit Action</a>
+</p>
+
+@if (ViewBag.RedirectMessage != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.RedirectMessage
+    </div>
+}
