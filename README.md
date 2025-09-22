@@ -12,3 +12,8 @@ Update Bootstrap-note:
 New bootstrap responsive forms have been added to the Create page in the form of a drop-down list and an age slider. Type in /Fishs/Create in the URL to be brought to the Create page.Verified that the keyboard focus, labels, and error messages are correct. 
 
 Update Short Test Plan: 
+Outline of how I used the viewmodel views to navigate the website. Click on the Fish app header to reach the index page, then click on the link at the bottom of the list that says "Input your Action in this area.". This will bring you to the pages that use the viewmodel views. Another way to reach the creation page is to put /Fishs/MAInput. In the creation page/view, it is required to enter a string and it has to be more than five characters. After submitting the action, it will bring you to a page that will display the action you have created. The page will verify if the display has been successful, as well as in the debug console. You can edit the action by clicking the edit button. The page will save the new action after clicking the save button. 
+<img width="1887" height="1042" alt="image" src="https://github.com/user-attachments/assets/e0eeddfd-7395-4610-93aa-ba629d6c7850" />
+
+
+I connected the model MessageActionViewModel which houses the command for the action message with the views CreateMA.cshtml, DisplayMA.cshtml, and EditMA.cshtml. I then connected the classes to methods within the FishController. I also created an XML file that says mistletoe is dangerous which is in Infrastructure/Data/settings.
